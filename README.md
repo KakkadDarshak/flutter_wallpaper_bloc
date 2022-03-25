@@ -11,9 +11,14 @@ This project is to display use of Bloc/Cubit pattern in flutter project.
 - [dio: ^4.0.4](https://pub.dev/packages/dio)
 - [cached_network_image: ^3.2.0](https://pub.dev/packages/cached_network_image)
 
+## Used Plugin:
+- [Bloc](https://plugins.jetbrains.com/plugin/12129-bloc)
+- [FlutterJsonBeanFactory](https://github.com/fluttercandies/FlutterJsonBeanFactory)
+
+## Unsplash API
 - Used [Unsplash Collections API](https://unsplash.com/documentation#list-collections) to represent collections list using bloc 
-- You guys need to create new application using this [link]
-- You will get *Access Key* from that, replace your Access Key in `services/apis.dart` -> headers: {'Authorization': 'Client-ID <your-access-key>'},
+- You guys need to create new application using this [link](https://unsplash.com/oauth/applications/new)
+- You will get **Access Key** from that, replace your Access Key in `services/apis.dart` -> headers: {'Authorization': 'Client-ID **your-access-key**'},
 
 ## Flutter Guideline to create fresh project
 A few resources to get you started if this is your first Flutter project:
